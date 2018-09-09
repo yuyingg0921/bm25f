@@ -1,0 +1,13 @@
+Light vs heat: Fujitsu rebuilds server with silicon photonics
+Using Intel's silicon photonics chips, Fujitsu demonstrates how fiber-optic links can replace copper wires to handle PCI Express data transfer. The result: a machine that's easier to keep cool.
+Fujitsu and Intel announced a significant step Tuesday toward replacing computers' electrical wiring with fiber-optic links: a version of the PCI Express data pathway that uses silicon photonics.
+
+The two companies demonstrated Optical PCIe Express (OPCIe) to split a single server into separate modules linked by a fiber-optic connection. The approach lets the machine's central Xeon processors be separated from its storage drives and its Xeon Phi co-processors to avoid overheating problems.
+
+The demonstration used Intel silicon photonics modules to send and receive the light signals, said Intel silicon photonics marketing director Victor Krutul in a blog post. In addition, a customizable Intel chip called an FPGA (field-programmable gate array) was used to massage the PCI signals so they were suited to fiber-optic transmission.
+
+PCI Express is fundamental to the workings of countless computers, so an optical revamp of the technology is notable even if it's only a demonstration. Although regular folks don't have much need to blow their computers up into multiple pieces, the mammoth data centers operated by companies such as Microsoft and Facebook are heavily constrained by power and cooling issues.
+
+Optical links aren't susceptible to the electromagnetic interference that limits copper wire lengths and data-transfer speeds. For that reason, fiber-optic lines have caught on widely for long-distance data links. However, fiber-optic links remain expensive, so the shorter a data-transfer link is, the more likely it will be that copper will be shouldering the load.
+
+"The vision of Intel Silicon Photonics is to combine the natural advantages of optical communications with the low-cost advantages of making devices out of Silicon in a CMOS fab," the same fabrication facilities that are used to manufacture conventional processors, Krutul said.

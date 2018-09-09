@@ -1,0 +1,44 @@
+Intel’s Justin Rattner on New Laser Chip Business
+Justin Rattner, who just stepped down as Intel CTO, discusses mobile computing and the future of Moore’s Law.
+Intel came to dominate computing by consistently beating others at packing transistors ever more densely onto chips for desktop computers and servers. Today, even as the PC market shrinks and the giant company struggles to convince phone and tablet makers to use its chips, Intel spends $10.1 billion on research annually. Justin Rattner, who has been the company’s CTO, recently met with Tom Simonite, MIT Technology Review’s senior IT editor, to argue that this investment will help Intel’s mobile chips overtake those of its competitors and create new businesses. Last Thursday, Rattner announced he was stepping down as Intel’s CTO to take personal leave. He plans to return to the company in a different position.
+Justin Rattner, until recently Intel’s CTO, says we’re in an innovative period for chip design.
+
+You have begun talking about Intel using a new approach to getting new technology to market, called the “lab venture.” What is that?
+
+We have started taking a very select set of technologies from Intel Labs and building new businesses around them [while keeping them inside the Intel Labs organization]. The problem, and it’s not unique to Intel, is businesses are busy with their current products and customers, and someone comes along and says “If you just put another $50 million into this, we’ll have this great product”—that rarely happens. Silicon photonics is the first of those ventures and the only one we’ve talked about publicly. We’ve separated the team and started hiring product, design, test, and production engineers. We haven’t detailed when we will announce products in this space.
+
+What will be the first silicon photonics product?
+
+It’s a 100-gigabit-per-second transceiver [a device that sends data between computers along an optical fiber]. We use conventional CMOS [chip] fabrication techniques to actually build the lasers into the chip. We showed a 50-gigabit-per-second link a few years ago that was built in the lab (see “Computing at the Speed of Light”); the current chip can do 100 gigabits per second, but the connector, which we teamed up with Corning to build, has the ability to go to 1.6 terabits per second.
+
+Where will it be used?
+
+In the data center—[meaning] more bandwidth at much lower cost, and what looks like a big win on the energy-efficiency side. The data center guys love all this capacity but with cables that are teeny-tiny. Right now most data centers are running at 10 gigabits per second; a few people have deployed 40 gigabits per second. People at Facebook [have] begun to think about other applications for silicon photonics [inside server] racks.
+
+Conventional electronic chips are Intel’s main business. What technology will be needed to keep up with Moore’s Law?
+
+I think we’re in a period of fairly rapid innovation. The industry built the same transistor for 40 years, and it just got smaller. [Then] at 65 nanometers we were looking at transistors that were leaking a lot, consuming a lot of power when they weren’t even turned on. So at 45 nanometers we went to high-k metal gates and literally changed everything: the architecture, the materials, the manufacturing process (see “Intel, IBM Overhaul Material for Next-Generation Processor”). Two generations after that and we’re at 3-D transistors (see “3-D Transistors”).
+
+Is it getting more challenging to keep Moore’s Law going?
+
+Things are very small, and the physics is no doubt challenging. We can see ahead two, maybe three, generations and we feel pretty good about that, but beyond that it starts to get a little fuzzy. Lithography is a huge one. Everybody expected that we’d make this transition to EUV [extreme ultraviolet], and it hasn’t happened. EUV lithography is just inherently more expensive, so that’s one concern on the horizon.
+
+Could we see a point where the chips that keep up with Moore’s Law become so expensive most people stick with less advanced technology?
+
+It may fragment; I guess that’s a possibility. I’ll be long retired before I think that happens. We moved to high-k metal gate, but there are certainly other materials that we could look at. A few years ago we published a technical paper where we made gallium arsenide transistors on a silicon substrate. That’s another possibility to pursue.
+
+Why doesn’t Intel sell many mobile chips compared with its competitors, despite launching chips said to match them on energy efficiency in 2012 (see “Smart Phones with Intel Chips Debut”)?
+
+I think that’s not so much for technical reasons. Intel just wasn’t seen as a player, and another thing that’s really critical is we didn’t have an LTE modem. Certainly in the U.S. that was a show stopper. The U.S. carriers weren’t accepting any new phone designs that weren’t LTE. We’re starting to show the LTE modems, so we’ll have the [systems on a chip], we’ll have the radios, we’ll have the software. It’ll be a complete story.
+
+So is the next mobile chip architecture, Merryfield, where it starts to change?
+
+We think we’ll have all the necessary ingredients to be very competitive. It took us several generations of design to get to the point where we were just as good as anything else that was out there, and then to continue to refine those design techniques and use the advantage of the best transistors anybody knows how to build.
+
+Intel is doing more software these days—for example, with the acquisition of McAfee. Is there a connection with Intel’s more traditional area of technology?
+
+Yes. Within Intel Labs we were in a collaboration with McAfee on a hardware antimalware technology when, separately, Intel decided to acquire them. We delivered software to them that contributed to the Deep Defender McAfee product. Now Haswell [a new microprocessor architecture] has been announced and it moves that technology into hardware so it’s much more energy efficient. You can use this type of technology in phones and ultrabooks.
+
+Will we see more security technology like that in chips in the future?
+
+Absolutely. By operating at a level below the operating system, it solves the problem that one of the first things sophisticated forms of malware do is turn off the antimalware defense. There’s more technology coming in the next generation of Intel Core [chips], and Atom-based devices are very likely to feature even more security functionality.
